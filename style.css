@@ -145,25 +145,72 @@ height: 35px;
 .liste-appartement div{
     border: red 1px solid;
     background-color: #F0F2F6;
+    border-radius: 1rem;
 }
 .liste-appartement{
     display: flex;
+    justify-content: space-around;
 }
 .ville{
     margin-right: 20px;
     flex-basis: 66%;
 }
 .populaire{
-    margin-right: 20px;
+    margin-left: 20px;
     flex-basis: 33%;
 }
+
 .liste-appart{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-justify-content: space-around;
+    justify-content: space-around;
 }
 .liste-appart div{
     border: #0065FC solid 1px;
     flex-basis: 33%;
+}
+/*star*/
+.star .blue {
+    color: #0065FC;
+}
+.star .grey{
+    color: #D9D9D9;
+}
+/*card*/
+.card {
+    border-radius: 1rem;
+    border: #0065FC solid;
+    padding: 0.5rem;
+    box-shadow: 0 0 16px #0065FC
+}
+.card img {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 1rem 1rem 0 0;
+    height: 124px;
+    width: 246px;;
+}
+.card p, .card h3 {
+    margin: 0.2rem;
+}
+.colone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colone2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*populaire*/
+.liste-appartement .populaire {
+    display: flex;
+    flex-direction: column;
+}
+.populaire div{
+    border: blue solid 1px;
+    display: flex;
 }
