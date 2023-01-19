@@ -9,9 +9,7 @@
         padding-left: 1.1%;
         padding-right: 1.1%;
         font-family: 'Raleway', sans-serif;
-        margin-left: 3%;
-        margin-right: 3%;
-        margin-top:  7px;
+        margin :auto;
         max-width: 1400px;
         margin: 0 auto;
     }
@@ -188,35 +186,35 @@
     }
 
     .liste-appartement div{
-        background-color: #F2F2F2;
+        
         border-radius: 1rem;
     }
 
     .liste-appartement{
         display: flex;
         justify-content: space-around;
+        width: 100%;
     }
     .liste-appartement .coter-d-card{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
     }
 
     .ville{
         margin-right: 20px;
         width: 70%;
+        background-color:#F2F2F2;
     }
 
     .populaire{
         margin-left: 20px;
         width: 30%;
+        background-color:#F2F2F2;
     }
     
     .liste-appart{
+        width: 30%;
         display: flex;
         justify-content: space-around;
-    }
-
-    .liste-appart div{
-        flex-basis: 33%;
     }
 
     .afficher-plus{
@@ -239,13 +237,15 @@
     /*card*/
 
     .card {
+        display: flex;
         border-radius: 1rem;
         padding: 0.5rem;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         box-shadow: 0 0 16px grey;
         height: 199px;
-        width: 235px;
-        margin: 10px;
+        width: 100%;
+        flex-flow: column;
+        margin: 2%;
     }
     .card:hover {
         cursor: pointer;
@@ -263,14 +263,14 @@
 
     .card p, .card h3 {
         margin: 0.2rem;
+        font-size: 98%;
     }
 
     .colonne{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        margin:auto;
     }
 
     /*populaire*/
@@ -296,7 +296,7 @@
         display: flex;
         background-color: white;
         height: 144px;
-        width: 600px;
+        width: 100%;
         padding: 2%;
         border-radius: 1rem;
         margin: 10px;
