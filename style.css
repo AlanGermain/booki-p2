@@ -219,6 +219,8 @@
 
     .afficher-plus{
         margin-left: 40px;
+        ;
+        
     }
 
     /*star*/
@@ -266,12 +268,13 @@
         font-size: 98%;
     }
 
-    .colonne{
+    .hebergement-carte{
         display: flex;
         justify-content: space-around;
         flex-flow: row wrap;
         margin:auto;
-    }
+        margin-bottom: 5%;
+        }
 
     /*populaire*/
 
@@ -600,6 +603,14 @@ section{
     .ville{
         width: 100%;
     }
+    .card:hover {
+        cursor: pointer;
+        transform: none;
+    }
+    .card2:hover {
+        cursor: pointer;
+        transform: none;
+    }
 
 /*activite*/
 
@@ -620,5 +631,9 @@ section{
     flex-wrap: wrap;
     flex-direction: column;
 }
+  .card-activite:hover{
+        cursor: pointer;
+        transform: none;
+    }
 
 }
